@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.intro {
+  flex: 1;
+  font: "Roboto", sans-serif;
+  line-height: 1.4rem;
+}
+
+.intro-img {
+  background: #363834 url("../../Images/irvan-smith-ymn_TY_MBn8-unsplash.jpg")
+    no-repeat center center/cover;
+}
